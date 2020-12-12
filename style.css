@@ -1,0 +1,62 @@
+
+     h1{
+         color:#ffffff;
+         font-family: "Lucida Console", "Courier New", monospace;
+         padding:30px;
+     }
+     .div1 p{
+        color:#ffffff;
+        font-family: "Lucida Console", "Courier New", monospace;
+        margin:40px;
+        
+     }
+     .div2{
+         border: solid;
+         background:rgb(51, 125, 155);
+     }
+     
+     *{
+         background: url(bg.gif) no-repeat center fixed; 
+     background-size: cover;
+    }
+      .container {
+        display: flex;
+        flex-wrap: wrap; justify-content: space-evenly;
+        text-Align:Center;
+        color: #ffffff;
+      }
+      .container img:hover{
+       opacity: 1;
+       
+      }
+      .container p{
+        text-align:center;
+       }
+       /* unvisited link */
+a:link {
+  color: green;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+      .item {
+          display:flex;
+        justify-content:flex-end;
+      }
+      img{transition-timing-function: ease-in;}
+img{
+	transition: width 1s;
+	transition: height 1s;
+}
+img:hover{
+  width: 150px;
+  height: 150px;
+  border:dotted;
+}
+p:hover{
+  text-decoration-color: white;
+  font-size:400;
+  font-family: fantasy
+}
